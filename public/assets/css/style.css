@@ -1,0 +1,38 @@
+ body{
+	font-family: ariel;
+	background-color: orange;
+}
+.header{
+	background-image: url("../img/burger-monster.jpg");
+}
+.container{
+	width:80%;
+	margin: 0 auto;
+}
+.notDevoured{
+	float: left;
+	width:50%;
+}
+.devoured{
+	float: right;
+	width:50%;
+}
+
+li {
+  background: #FAEBD7;
+  margin: 5px;
+  padding: 5px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  background: #FFFFFF;
+  padding: 5px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
