@@ -1,12 +1,15 @@
  body{
-	font-family: ariel;
+	font-family: arial;
 	background-color: orange;
+	width: 500px;
+	margin: 30px auto;
+
 }
 .header{
-	background-image: url("../img/burger-monster.jpg");
+	
 }
 .container{
-	width:80%;
+	width:500px;
 	margin: 0 auto;
 }
 .notDevoured{
@@ -17,6 +20,13 @@
 	float: right;
 	width:50%;
 }
+#burger-monster {
+ 	display: block;
+    margin: 0 auto;
+ }
+ h1 {
+ 	text-align: center;
+ }
 
 li {
   background: #FAEBD7;
@@ -35,4 +45,9 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+#addburger {
+	width: 300px;
+	margin: 5px auto;
 }
